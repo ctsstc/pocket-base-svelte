@@ -41,3 +41,9 @@ Head over to the Admin UI
 
 ### Create the Admin Account
 
+## Resources, Documentation, & Videos
+
+### Videos
+
+- [SvelteKit + PocketBase Integration: User Login and Registration](https://www.youtube.com/watch?v=AxPB3e-3yEM)
+- [Authentication with SvelteKit & PocketBase](https://www.youtube.com/watch?v=doDKaKDvB30)

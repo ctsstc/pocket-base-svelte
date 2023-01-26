@@ -13,6 +13,8 @@ unzip pocketbase.zip pocketbase
 
 ## Git Init + Ignore
 
+### Git Init
+
 ```bash
 git init
 ```
@@ -27,6 +29,12 @@ The following we will not want to commit to our repository. Unless you like to l
 pocketbase
 pocketbase.zip
 pb_data/
+```
+
+## NPM Init/Create SvelteKit App
+
+```bash
+npm create svelte@latest project-name-here
 ```
 
 ## Start it Up

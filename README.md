@@ -85,7 +85,12 @@ https://github.com/pocketbase/pocketbase/releases
 Download and Unzip the file:
 
 ```bash
-curl -LJo pocketbase.zip https://github.com/pocketbase/pocketbase/releases/download/v0.11.3/pocketbase_0.11.3_linux_amd64.zip
+# darwin, linux, windows
+OS="darwin"
+# amd64, arm64, armv7
+ARCH="amd64"
+VERSION="0.12.2"
+curl -LJo pocketbase.zip "https://github.com/pocketbase/pocketbase/releases/download/v${VERSION}/pocketbase_${VERSION}_${OS}_${ARCH}.zip"
 unzip pocketbase.zip pocketbase
 ```
 

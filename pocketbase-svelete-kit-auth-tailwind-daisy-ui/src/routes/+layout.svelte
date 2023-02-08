@@ -1,5 +1,6 @@
 <script>
 	import '../app.postcss';
+	import { currentUser } from '$lib/pocketbase';
 </script>
 
 <div class="bg-neutral text-neutral-content">
@@ -9,8 +10,12 @@
 		</div>
 		<div class="navbar-end">
 			<ul class="menu menu-horizontal">
-				<li><a href="/login">Login</a></li>
-				<li><a href="/register">Register</a></li>
+				{#if $currentUser}
+					<li><a href="/logout">Logout</a></li>
+				{:else}
+					<li><a href="/login">Login</a></li>
+					<li><a href="/register">Register</a></li>
+				{/if}
 			</ul>
 		</div>
 	</div>

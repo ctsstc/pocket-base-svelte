@@ -96,6 +96,14 @@ npm run dev
 npm run format
 ```
 
+---
+
+## Install Pocketbase SDK
+
+```bash
+npm i pocketbase
+```
+
 ## Resources, Documentation, & Videos
 
 ### Videos

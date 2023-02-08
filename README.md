@@ -31,6 +31,13 @@ pocketbase.zip
 pb_data/
 ```
 
+## Update NPM / NPX
+
+```bash
+npm i -g npm
+npm i -g npx
+```
+
 ## NPM Init/Create SvelteKit App
 
 ```bash

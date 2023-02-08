@@ -49,6 +49,46 @@ Head over to the Admin UI
 
 ### Create the Admin Account
 
+---
+
+## Create SvelteKit App
+
+```bash
+npm create svelte@latest project-name-here
+```
+
+### Options
+- Skeleton project
+- Typescript
+- ESLint - Yes
+- Prettier - Yes
+- Playwright - No
+- Vitest - No
+
+## Install Tailwind and DaisyUI
+
+```bash
+npx svelte-add@latest tailwindcss --daisyui --forms --typography
+```
+
+## Install Dependencies
+
+```bash
+npm i
+```
+
+## Start it Up
+
+```bash
+npm run dev
+```
+
+## Clean Up
+
+```bash
+npm run format
+```
+
 ## Resources, Documentation, & Videos
 
 ### Videos

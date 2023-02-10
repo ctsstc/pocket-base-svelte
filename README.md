@@ -34,6 +34,8 @@ pb_data/
 
 ## Update NPM / NPX
 
+Grab the latest Node version then update NPM and NPX.
+
 ```bash
 npm i -g npm
 npm i -g npx

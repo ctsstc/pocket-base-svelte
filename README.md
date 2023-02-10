@@ -43,12 +43,6 @@ pocketbase.zip
 pb_data/
 ```
 
-## NPM Init/Create SvelteKit App
-
-```bash
-npm create svelte@latest project-name-here
-```
-
 ## Start it Up
 
 ```bash

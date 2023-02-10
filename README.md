@@ -40,16 +40,18 @@ npx svelte-add@latest tailwindcss --daisyui --forms --typography
 npm i
 ```
 
+## Clean Up
+
+Format and then commit any changes as a baseline.
+
+```bash
+npm run format
+```
+
 ## Start it Up
 
 ```bash
 npm run dev
-```
-
-## Clean Up
-
-```bash
-npm run format
 ```
 
 ---

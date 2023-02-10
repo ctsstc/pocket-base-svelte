@@ -1,5 +1,16 @@
 # Getting Started
 
+## Use the Latest Node & Update NPM / NPX
+
+Grab the latest Node version then update NPM and NPX.
+
+PS: Stay away from odd versions of Node; use LTS (always).
+
+```bash
+npm i -g npm
+npm i -g npx
+```
+
 ## Download and Unzip
 
 Download the latest release from:
@@ -30,15 +41,6 @@ The following we will not want to commit to our repository. Unless you like to l
 pocketbase
 pocketbase.zip
 pb_data/
-```
-
-## Update NPM / NPX
-
-Grab the latest Node version then update NPM and NPX.
-
-```bash
-npm i -g npm
-npm i -g npx
 ```
 
 ## NPM Init/Create SvelteKit App

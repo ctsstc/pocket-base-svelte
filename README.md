@@ -6,6 +6,7 @@ Download the latest release from:
 https://github.com/pocketbase/pocketbase/releases
 
 Download and Unzip the file:
+
 ```bash
 curl -LJo pocketbase.zip https://github.com/pocketbase/pocketbase/releases/download/v0.11.3/pocketbase_0.11.3_linux_amd64.zip
 unzip pocketbase.zip pocketbase
@@ -65,6 +66,7 @@ npm create svelte@latest project-name-here
 ```
 
 ### Options
+
 - Skeleton project
 - Typescript
 - ESLint - Yes
@@ -104,9 +106,22 @@ npm run format
 npm i pocketbase
 ```
 
+## Icons
+
+<https://github.com/steeze-ui/icons>
+
+```bash
+npm i @steeze-ui/svelte-icon
+npm i -D @steeze-ui/heroicons
+```
+
 ## Resources, Documentation, & Videos
 
 ### Videos
 
 - [SvelteKit + PocketBase Integration: User Login and Registration](https://www.youtube.com/watch?v=AxPB3e-3yEM)
 - [Authentication with SvelteKit & PocketBase](https://www.youtube.com/watch?v=doDKaKDvB30)
+
+```
+
+```

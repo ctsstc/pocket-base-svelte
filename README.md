@@ -91,7 +91,7 @@ unzip pocketbase.zip pocketbase
 
 ### Git Ignore
 
-The following we will not want to commit to our repository. Unless you like to lock your binary, but we want to keep things OS agnostic, and the binary locking should occur at a build/ci pipline.
+The following we will not want to commit to our repository. Unless you like to lock your binary, but we want to keep things OS agnostic, and the binary locking should occur at a build/ci pipeline.
 
 `.gitignore`
 

@@ -6,7 +6,12 @@ const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {},
+		colors: {
+			kumo: {
+				primary: '#39296c'
+			}
+		}
 	},
 
 	plugins: [forms, typography, daisyui]
